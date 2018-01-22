@@ -1,31 +1,33 @@
 \contentsline {section}{\numberline {1}概要}{4}
-\contentsline {section}{\numberline {2}研究の背景と目的}{4}
-\contentsline {section}{\numberline {3}方法}{5}
-\contentsline {subsection}{\numberline {3.1}Kronig-Pennyモデルについて}{5}
-\contentsline {subsection}{\numberline {3.2}QSBについて}{6}
-\contentsline {section}{\numberline {4}QSBのクラス構成}{7}
-\contentsline {subsection}{\numberline {4.1}Mesh(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{7}
-\contentsline {subsection}{\numberline {4.2}Context(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{8}
-\contentsline {subsection}{\numberline {4.3}Field(arg:Union[iterable, function])}{9}
-\contentsline {subsection}{\numberline {4.4}Potential(arg:Union[iterable, function])}{10}
-\contentsline {subsection}{\numberline {4.5}state(arg:Union[iterable, function])}{12}
-\contentsline {subsection}{\numberline {4.6}Hamiltonian(potential:Potential)}{12}
-\contentsline {subsection}{\numberline {4.7}Schroedinger}{13}
-\contentsline {section}{\numberline {5}QSBの妥当性検証}{14}
-\contentsline {subsection}{\numberline {5.1}Zhangの研究結果の再現}{14}
-\contentsline {section}{\numberline {6}条件設定}{15}
-\contentsline {subsection}{\numberline {6.1}物理的状況の考察}{15}
-\contentsline {section}{\numberline {7}結果}{16}
-\contentsline {subsection}{\numberline {7.1}x-tパターン}{16}
-\contentsline {subsection}{\numberline {7.2}全反射}{16}
-\contentsline {subsection}{\numberline {7.3}高次反射波}{17}
-\contentsline {subsection}{\numberline {7.4}高次進行波}{18}
-\contentsline {subsection}{\numberline {7.5}分裂状態}{19}
-\contentsline {subsection}{\numberline {7.6}屈折状態}{20}
-\contentsline {subsection}{\numberline {7.7}トラップ状態}{21}
-\contentsline {subsection}{\numberline {7.8}停滞状態}{22}
-\contentsline {subsection}{\numberline {7.9}反射率と壁の厚さの関係}{23}
-\contentsline {section}{\numberline {付録A}Blochの定理の簡単な証明}{25}
-\contentsline {section}{\numberline {付録B}Kronig-Pennyモデルのエネルギーバンド構造の簡単な計算方法}{25}
-\contentsline {section}{\numberline {付録C}定常状態の計算}{27}
-\contentsline {section}{\numberline {付録D}QSBのソースコード}{27}
+\contentsline {section}{\numberline {2}方法}{6}
+\contentsline {subsection}{\numberline {2.1}Kronig-Pennyモデルについて}{6}
+\contentsline {subsection}{\numberline {2.2}QSBについて}{7}
+\contentsline {section}{\numberline {3}QSBのクラス構成}{9}
+\contentsline {section}{\numberline {4}plot(arg: Plottable, show=True, save=False, title="no\_title")}{9}
+\contentsline {subsection}{\numberline {4.1}Mesh(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{11}
+\contentsline {subsection}{\numberline {4.2}Context(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{11}
+\contentsline {subsection}{\numberline {4.3}Field(arg: Union[Iterable, Callable])}{12}
+\contentsline {subsection}{\numberline {4.4}Potential(arg: Union[iterable, function])}{13}
+\contentsline {subsection}{\numberline {4.5}State(arg: Union[iterable, function])}{15}
+\contentsline {subsection}{\numberline {4.6}Hamiltonian(potential: Potential, boundary="free")}{15}
+\contentsline {subsection}{\numberline {4.7}Schroedinger(hamiltonan: Hamiltonian, state: State)}{16}
+\contentsline {section}{\numberline {5}QSBの妥当性検証}{19}
+\contentsline {subsection}{\numberline {5.1}Heyperdiffusion}{19}
+\contentsline {subsection}{\numberline {5.2}Zhangの研究結果の再現}{20}
+\contentsline {section}{\numberline {6}条件設定}{22}
+\contentsline {subsection}{\numberline {6.1}物理的状況の考察}{22}
+\contentsline {section}{\numberline {7}結果}{23}
+\contentsline {subsection}{\numberline {7.1}x-tパターン}{23}
+\contentsline {subsection}{\numberline {7.2}全反射}{24}
+\contentsline {subsection}{\numberline {7.3}停滞状態}{25}
+\contentsline {subsection}{\numberline {7.4}高次反射波}{28}
+\contentsline {subsection}{\numberline {7.5}高次進行波}{29}
+\contentsline {subsection}{\numberline {7.6}分裂状態}{30}
+\contentsline {subsection}{\numberline {7.7}屈折状態}{31}
+\contentsline {subsection}{\numberline {7.8}トラップ状態}{32}
+\contentsline {subsection}{\numberline {7.9}反射率と壁の厚さの関係}{34}
+\contentsline {section}{\numberline {8}結論}{36}
+\contentsline {section}{\numberline {付録A}Blochの定理の簡単な証明}{37}
+\contentsline {section}{\numberline {付録B}Kronig-Pennyモデルのエネルギーバンド構造の簡単な計算方法}{37}
+\contentsline {section}{\numberline {付録C}定常状態の計算}{39}
+\contentsline {section}{\numberline {付録D}QSBのソースコード}{39}

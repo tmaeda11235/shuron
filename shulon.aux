@@ -2,7 +2,11 @@
 \citation{Kittel}
 \citation{Bloch}
 \citation{KP}
+\citation{Esaki}
+\citation{Szmulowicz}
+\citation{nobelEsaki}
 \citation{Nagaoka}
+\citation{nobelAnderson}
 \citation{Koide}
 \citation{Anker}
 \citation{Anker}
@@ -10,131 +14,186 @@
 \citation{Zhang}
 \citation{Koide}
 \citation{Huf}
-\citation{Moyer,Maeda,Hosaka,Goto,Futohashi}
+\citation{Siegle}
+\citation{Zhang,Moyer,Maeda,Hosaka,Goto,Futohashi}
+\citation{Zhang}
+\citation{Moyer}
+\citation{Goto,Futohashi}
 \@writefile{toc}{\contentsline {section}{\numberline {1}概要}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}研究の背景と目的}{4}}
+\citation{QSB}
 \citation{QSB}
 \citation{Koide}
 \citation{Koide}
 \citation{Bloch}
 \citation{Anker}
-\@writefile{toc}{\contentsline {section}{\numberline {3}方法}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Kronig-Pennyモデルについて}{5}}
-\newlabel{kpless}{{3.5}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}方法}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Kronig-Pennyモデルについて}{6}}
+\newlabel{kpless}{{2.5}{6}}
 \citation{Pavelich}
 \citation{python}
 \citation{scipy}
-\newlabel{kppriod}{{3.6}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}QSBについて}{6}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}samplecode.py}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces サンプルコード実行結果}}{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}QSBのクラス構成}{7}}
-\newlabel{AppQ}{{4}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Mesh(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Context(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{8}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Contextの使用例}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Field(arg:Union[iterable, function])}{9}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}Fieldのサンプルコード}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Potential(arg:Union[iterable, function])}{10}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}Potentialの使用例}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces ステップポテンシャル}}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 箱型ポテンシャル}}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces ポテンシャルの足し合わせ}}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 二次関数}}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Kronig-Pennyポテンシャル}}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 真空とKronig-Pennyポテンシャル}}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}state(arg:Union[iterable, function])}{12}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}Stateの使用例}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Gauss型波束}}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Hamiltonian(potential:Potential)}{12}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Schroedinger}{13}}
+\newlabel{kppriod}{{2.6}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}QSBについて}{7}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}samplecode.py}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces サンプルコード実行結果}}{8}}
+\citation{pep8}
+\citation{pep484}
+\newlabel{AppQ}{{3}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}QSBのクラス構成}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}plot(arg: Plottable, show=True, save=False, title="no\_title")}{9}}
+\citation{pep20}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Mesh(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Context(x\_min: Real, x\_max: Real, dx: Real, t\_min: Real, t\_max, dt: Real)}{11}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Contextの使用例}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Field(arg: Union[Iterable, Callable])}{12}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}Fieldのサンプルコード}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Potential(arg: Union[iterable, function])}{13}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}Potentialの使用例}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces ステップポテンシャル}}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 箱型ポテンシャル}}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces ポテンシャルの足し合わせ}}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 二次関数}}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Kronig-Pennyポテンシャル}}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 真空とKronig-Pennyポテンシャル}}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}State(arg: Union[iterable, function])}{15}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}Stateの使用例}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Gauss型波束}}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Hamiltonian(potential: Potential, boundary="free")}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Schroedinger(hamiltonan: Hamiltonian, state: State)}{16}}
+\newlabel{QSBeq}{{4.1}{17}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}HamiltonianとSchroedingerの使用例}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 自由端境界条件}}{18}}
+\newlabel{free}{{9}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces 固定端境界条件}}{18}}
+\newlabel{fix}{{10}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 周期境界条件}}{18}}
+\newlabel{period}{{11}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 2次関数}}{18}}
+\citation{Huf}
+\@writefile{toc}{\contentsline {section}{\numberline {5}QSBの妥当性検証}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Heyperdiffusion}{19}}
+\newlabel{Heyperdiffusion}{{5.1}{19}}
+\newlabel{source}{{5.3}{19}}
+\newlabel{variant}{{5.4}{19}}
+\newlabel{MPS}{{5.5}{19}}
 \citation{Carnahan}
-\@writefile{toc}{\contentsline {section}{\numberline {5}QSBの妥当性検証}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Zhangの研究結果の再現}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 波束の分散の時間推移}}{14}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}条件設定}{15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}物理的状況の考察}{15}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}結果}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}x-tパターン}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}全反射}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces 全反射の例$V_0$=6.3, a=8.5, b=1.8の場合}}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}高次反射波}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 高次反射波の例:壁が薄めのもの$v_0$=1.0, a=2.7, b=5.8}}{17}}
-\newlabel{thin}{{11}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 高次反射波の例:壁が厚めのもの。停滞状態の影響がみられる$v_0$=1.0, a=4.5, b=0.9}}{17}}
-\newlabel{thick}{{12}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 高次反射波の例:2次の反射波が卓越している$v_0$=1.9, a=0.2, b=6.0}}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces 高次反射波の例:2次進行波も同時に見られる珍しい例$v_0$=2.0, a=0.4, b=5.2}}{17}}
-\citation{Maeda,Goto}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}高次進行波}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces 高次進行波の例:典型的なもの$V_0$=2.1, a=1.8, b=6.9}}{18}}
-\newlabel{temporal}{{15}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces 高次進行波の例:ひし形の模様がかなり大きく見える$V_0$=1.4, a=2.2, b=8.2}}{18}}
-\newlabel{thick_wide}{{16}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces 高次進行波の例:2次進行波が次第に卓越する様子が見られる$V_0$=1.9, a=1.7, b=9.7}}{18}}
-\newlabel{wide}{{17}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces 高次進行波の例:3次進行波も見られる珍しい例$V_0$=2.3, a=2.0, b=6.4}}{18}}
-\newlabel{narrow}{{18}{18}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}分裂状態}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces ステップポテンシャル}}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces 箱型ポテンシャル}}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces ポテンシャルの足し合わせ}}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces 二次関数}}{19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}屈折状態}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces ステップポテンシャル}}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces 箱型ポテンシャル}}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces ポテンシャルの足し合わせ}}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces 二次関数}}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.7}トラップ状態}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces ステップポテンシャル}}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces 箱型ポテンシャル}}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces ポテンシャルの足し合わせ}}{21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces 二次関数}}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.8}停滞状態}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces ステップポテンシャル}}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces 箱型ポテンシャル}}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces ポテンシャルの足し合わせ}}{22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces 二次関数}}{22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.9}反射率と壁の厚さの関係}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces 周期1.5のポテンシャルの反射率}}{23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces 真空領域の滞在確率/ポテンシャル領域の滞在確率}}{24}}
-\@writefile{toc}{\contentsline {section}{\numberline {付録A}Blochの定理の簡単な証明}{25}}
-\newlabel{AppB}{{付録A}{25}}
-\newlabel{ux}{{付録A.11}{25}}
-\@writefile{toc}{\contentsline {section}{\numberline {付録B}Kronig-Pennyモデルのエネルギーバンド構造の簡単な計算方法}{25}}
-\newlabel{AppK}{{付録B}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Zhangの研究結果の再現}{20}}
+\newlabel{1ji}{{5.6}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 波束の分散の時間推移}}{20}}
+\newlabel{bunsan}{{13}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}条件設定}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}物理的状況の考察}{22}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}結果}{23}}
+\newlabel{x-tpatturn}{{7.1}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}x-tパターン}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces $x-t$パターンの例:ステップポテンシャルに入射する波束をシミュレーションしたもの}}{23}}
+\newlabel{example}{{14}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}全反射}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces 全反射の例$V_0$=6.3, a=8.5, b=1.8の場合}}{24}}
+\newlabel{teitais}{{7.3}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}停滞状態}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces 停滞状態の例:典型的なもの$V_0$=1.9, a=9.4, b=6.7}}{25}}
+\newlabel{teitai1}{{16}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces 停滞状態の例:2層目でも黄色い領域が見られる$V_0$=1.7, a=8.5, b=5.6}}{25}}
+\newlabel{teitai2}{{17}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces 停滞状態の例:1層目壁内部で2回真空領域に反射している$V_0$=1.8, a=8.4, b=9.7}}{25}}
+\newlabel{hanshamiyasui}{{18}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces 停滞状態の例:観測した中で停滞時間が最長のもの$V_0$=1.7, a=9.4, b=6.6}}{25}}
+\newlabel{teitai3}{{19}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces 箱型ポテンシャルに入射した波束の時間発展$V$=2.0}}{26}}
+\newlabel{hako_short}{{20}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces 90単位時間まで計算された箱型ポテンシャルにおける時間発展}}{26}}
+\newlabel{hako_long}{{21}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces 真空領域の滞在確率/壁内部の滞在確率}}{27}}
+\newlabel{hako_in}{{22}{27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}高次反射波}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces 高次反射波の例:壁が薄めのもの$V_0$=1.0, a=2.7, b=5.8}}{28}}
+\newlabel{thin}{{23}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces 高次反射波の例:壁が厚めのもの。停滞状態の影響がみられる$V_0$=1.0, a=4.5, b=0.9}}{28}}
+\newlabel{thick}{{24}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces 高次反射波の例:2次の反射波が卓越している$V_0$=1.9, a=0.2, b=6.0}}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces 高次反射波の例:2次進行波も同時に見られる珍しい例$V_0$=2.0, a=0.4, b=5.2}}{28}}
+\citation{Goto}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}高次進行波}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces 高次進行波の例:典型的なもの$V_0$=2.1, a=1.8, b=6.9}}{29}}
+\newlabel{temporal}{{27}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces 高次進行波の例:ひし形の模様がかなり大きく見える$V_0$=1.4, a=2.2, b=8.2}}{29}}
+\newlabel{thick_wide}{{28}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces 高次進行波の例:2次進行波が次第に卓越する様子が見られる$V_0$=1.9, a=1.7, b=9.7}}{29}}
+\newlabel{wide}{{29}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces 高次進行波の例:3次進行波も見られる珍しい例$V_0$=2.3, a=2.0, b=6.4}}{29}}
+\newlabel{narrow}{{30}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6}分裂状態}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces 分裂状態の例:分裂がいくつも起こっている$V_0$=1.9, a=1.2, b=2.4}}{30}}
+\newlabel{split_multi}{{31}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces 分裂状態の例:壁が厚いもの$V_0$=1.2, a=1.5, b=2.3}}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces 分裂状態の例:2次反射波が卓越している$v_0$=2.0, a=0.4, b=2.8}}{30}}
+\newlabel{split_1}{{33}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces 分裂状態の例:2つの進行波が最も綺麗に分かれているもの$V_0$=2.5 , a=0.5, b=4.5}}{30}}
+\citation{Anker}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.7}屈折状態}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces 屈折状態の例:周期が1.5のもの$v_0$=1.9, a=0.5, b=1.0}}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces 屈折状態の例:周期が3.1のもの$v_0$=8.5, a=0.5, b=2.6}}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces 屈折状態の例:ポテンシャルが高いもの$v_0$=9.9, a=0.2, b=1.3}}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces 屈折状態の例:進行波が最も一体として伝搬しているもの$v_0$=1.9, a=0.5, b=1.0}}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.8}トラップ状態}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces トラップ状態の例:1層目と2層目の間で反射し続けている$V_0$=4.1, a=1.0, b=9.7}}{32}}
+\newlabel{trap_tempo}{{39}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces トラップ状態の例:井戸内で3つの腹が確認できる$V_0$=5.5, a=1.0, b=4.1}}{32}}
+\newlabel{trap3}{{40}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces トラップ状態の例:井戸内で4つの腹が確認できる$V_0$=4.5, a=1.0, b=6.8}}{32}}
+\newlabel{trap4}{{41}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces トラップ状態の例:井戸内で5つの腹が確認できる$V_0$=5.4, a=1.0, b=7.9}}{32}}
+\newlabel{trap5}{{42}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.9}反射率と壁の厚さの関係}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces 周期1.5のポテンシャルの反射率}}{34}}
+\newlabel{hansha}{{43}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces 箱型ポテンシャルの定常状態における反射率}}{35}}
+\newlabel{hako}{{44}{35}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}結論}{36}}
+\newlabel{AppB}{{付録A}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {付録A}Blochの定理の簡単な証明}{37}}
+\newlabel{ux}{{付録A.3}{37}}
+\newlabel{AppK}{{付録B}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {付録B}Kronig-Pennyモデルのエネルギーバンド構造の簡単な計算方法}{37}}
 \citation{QSB}
-\@writefile{toc}{\contentsline {section}{\numberline {付録C}定常状態の計算}{27}}
-\newlabel{AppT}{{付録C}{27}}
-\@writefile{toc}{\contentsline {section}{\numberline {付録D}QSBのソースコード}{27}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}\_\_init\_\_.py}{27}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {7}mesh.py}{28}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {8}context.py}{29}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {9}field.py}{32}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {10}potential.py}{33}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {11}stste.py}{35}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {12}schroedinger.py}{36}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {13}hamiltonian.py}{37}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {14}laplasian.py}{38}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {15}quantized.py}{39}}
+\newlabel{AppT}{{付録C}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {付録C}定常状態の計算}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {付録D}QSBのソースコード}{39}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {7}\_\_init\_\_.py}{39}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {8}mesh.py}{40}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {9}context.py}{41}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {10}quantized.py}{44}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {11}field.py}{44}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {12}potential.py}{45}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {13}stste.py}{48}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {14}laplasian.py}{48}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {15}hamiltonian.py}{50}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {16}schroedinger.py}{50}}
 \bibcite{Kittel}{1}
 \bibcite{Bloch}{2}
 \bibcite{KP}{3}
 \bibcite{Nagaoka}{4}
 \bibcite{Esaki}{5}
 \bibcite{Szmulowicz}{6}
-\bibcite{Anker}{7}
-\bibcite{Katori}{8}
-\bibcite{Zhang}{9}
-\bibcite{Koide}{10}
-\bibcite{Huf}{11}
-\bibcite{Moyer}{12}
-\bibcite{Maeda}{13}
-\bibcite{Hosaka}{14}
-\bibcite{Goto}{15}
-\bibcite{Futohashi}{16}
-\bibcite{QSB}{17}
-\bibcite{Pavelich}{18}
-\bibcite{python}{19}
-\bibcite{scipy}{20}
-\bibcite{Carnahan}{21}
+\bibcite{nobelAnderson}{7}
+\bibcite{nobelEsaki}{8}
+\bibcite{Anker}{9}
+\bibcite{Katori}{10}
+\bibcite{Zhang}{11}
+\bibcite{Koide}{12}
+\bibcite{Huf}{13}
+\bibcite{Moyer}{14}
+\bibcite{Maeda}{15}
+\bibcite{Hosaka}{16}
+\bibcite{Goto}{17}
+\bibcite{Futohashi}{18}
+\bibcite{QSB}{19}
+\bibcite{Pavelich}{20}
+\bibcite{python}{21}
+\bibcite{scipy}{22}
+\bibcite{pep8}{23}
+\bibcite{pep484}{24}
+\bibcite{pep20}{25}
+\bibcite{Carnahan}{26}
+\bibcite{Siegle}{27}
